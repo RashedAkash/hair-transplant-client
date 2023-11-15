@@ -1,0 +1,22 @@
+[
+    {
+        "image": "https://i.postimg.cc/6qDFc5Qs/doctor.jpg",
+        "number": 20,
+        "title": "Doctors"
+    },
+    {
+        "image": "https://i.postimg.cc/FK4NmGNt/brance.jpg",
+        "number": 50,
+        "title": "Branches"
+    },
+    {
+        "image": "https://i.postimg.cc/pT5wFF2Q/lab.jpg",
+        "number": 30,
+        "title": "Research Labs"
+    },
+    {
+        "image": "https://i.postimg.cc/9MH46yNz/award.jpg",
+        "number": 150,
+        "title": "Awards"
+    }
+]
