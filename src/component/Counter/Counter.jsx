@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 
 const Counter = () => {
   return (
-    <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 '>
+    <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-10 '>
       {
         counterData.map(data=>  <div key={data.title} className="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12  ">
 	<img src={data.image} alt="" className="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" />

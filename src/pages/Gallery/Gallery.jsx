@@ -13,7 +13,10 @@ import SectionTitle from '../../component/SectionTitle/SectionTitle';
 
 const Gallery = () => {
   return (
-    <div className=' py-10'>
+    <div>
+      <img src={img1} alt="" />
+      <div className=' py-10'>
+      
       <SectionTitle title='Result Gallery' subTitle='See Our amazing hair transplant results and book your appintment now!'></SectionTitle>
     <section className="py-6 dark:text-gray-50">
 	<div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
@@ -30,6 +33,7 @@ const Gallery = () => {
 		<img src={img7} alt="" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-gray-500 aspect-square" />
 	</div>
 </section>
+    </div>
     </div>
   );
 };

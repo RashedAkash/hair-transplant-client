@@ -5,11 +5,11 @@ import Navbar from '../shared/Navbar/Navbar';
 
 const MainLayouts = () => {
   return (
-    <div className=' max-w-6xl mx-auto overflow-hidden'>
+    <div >
       <div className='w-full'>
         <Navbar />
       </div>
-      <div >
+      <div className=' max-w-6xl mx-auto overflow-hidden' >
         <Outlet />
       </div>
     </div>
